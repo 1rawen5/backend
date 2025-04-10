@@ -1,0 +1,2 @@
+Nvm :https://github.com/coreybutler/nvm-windows/releases
+https://nodejs.org/fr/blog/release/v16.20.2
