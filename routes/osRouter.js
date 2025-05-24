@@ -1,9 +1,8 @@
-var express = require('express');
-var router = express.Router();
+const express = require("express");
+const router = express.Router();
+const { getOsInformation } = require("../controllers/osController");
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.status(200).json('hello 9antra 2025'); 
-});
+// Une seule fonction handler ici
+router.get('/getDataFromPC', getOsInformation);
 
 module.exports = router;
